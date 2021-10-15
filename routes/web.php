@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', 'RestaurantController@index');
+Route::get('/list', 'RestaurantController@list');

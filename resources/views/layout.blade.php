@@ -24,7 +24,7 @@
 <body>
 
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Restaurant</a>
+  <a class="navbar-brand" href="/">Restaurant</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse"
    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
    aria-label="Toggle navigation">
@@ -33,11 +33,15 @@
   <div class="collapse navbar-collapse" id="navbarNav">
    <ul class="navbar-nav">
     <li class="nav-item active">
-     <a class="nav-link" href="#">Home <span
+     <a class="nav-link" href="/">Home<span
        class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item">
-     <a class="nav-link" href="#">List</a>
+     <a class="nav-link" href="/list">List</a>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link" href="#" tabindex="-1"
+      aria-disabled="true">Add</a>
     </li>
     <li class="nav-item">
      <a class="nav-link" href="#">Search</a>
@@ -50,22 +54,19 @@
      <a class="nav-link" href="#" tabindex="-1"
       aria-disabled="true">Register</a>
     </li>
-    <li class="nav-item">
-     <a class="nav-link" href="#" tabindex="-1"
-      aria-disabled="true">Add</a>
-    </li>
+
    </ul>
   </div>
  </nav>
 
- <div>
+ <div class="container">
   @yield('content')
  </div>
 
 
- <footer>
+ {{-- <footer>
   Copyrights by Restaurant App.
- </footer>
+ </footer> --}}
 </body>
 
 </html>
