@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+
+:root {
+    --nav-hvr: #fe696a;
+    --mid-pink: #fa4d4d;
+    --deep-hvr: #fe3638;
+    --mild-gry: #48566b;
+    --mdl-hdr: #4b566b;
+    --mdl-lbl: #373f50;
+    --footer-bg: #343a40;
+    --section-bg: rgba(112, 120, 138, 0.123) 0;
+    --sht-trans: all 0.2s ease-in-out;
+    --card-border: 1px solid rgba(0, 0, 0, 0.125);
+    --card-radius: 0.25rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.flexed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-btw {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline {
+    width: 50%;
+    height: 0.25rem;
+    margin: 0.6rem auto;
+    background: var(--nav-hvr);
+}
+
+.underline-sm {
+    width: 40%;
+    height: 0.25rem;
+    margin: 0.3rem auto;
+    background: var(--nav-hvr);
+}
+
+.select__wrap,
+.select__wrap:active {
+    background: transparent;
+    border: none;
+}

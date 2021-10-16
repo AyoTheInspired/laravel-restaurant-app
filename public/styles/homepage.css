@@ -1,0 +1,22 @@
+.nav__icon,
+a.nav-link {
+    color: #fff !important;
+    transition: var(--sht-trans);
+}
+
+.nav__items-wrap:hover .nav__icon,
+.nav__items-wrap:hover a.nav-link {
+    color: var(--nav-hvr) !important;
+}
+
+.nav__icon-right {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: var(--sht-trans);
+}
+
+.nav__icon-right:hover {
+    color: var(--nav-hvr);
+}
